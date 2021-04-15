@@ -4,6 +4,6 @@ version: 2.1
                  docker:
                          - image: circleci/node:10.24.0
                  steps:
-                           -    checkout
+                         - checkout
                          - run: npm install
                          - run: npm test 
